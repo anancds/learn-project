@@ -10,6 +10,7 @@ import java.rmi.RemoteException;
 public class RmiClient {
     public static void main(String[] args)
         throws RemoteException, NotBoundException, MalformedURLException, NamingException {
+        //两种连接方式
         //        ITimeServer timeServer = (ITimeServer) Naming.lookup("rmi://localhost:6600/TimeServer");
         Context namingContext = new InitialContext();
 
