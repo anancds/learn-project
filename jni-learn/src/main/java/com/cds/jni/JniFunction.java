@@ -19,5 +19,10 @@
  */
 package com.cds.jni;
 
-public interface JniFunction {
+import com.sun.jna.Library;
+
+public interface JniFunction extends Library{
+
+
+    float st_score_standard(float score);
 }

@@ -6,4 +6,5 @@ include 'RxJava-learn'
 include 'oraclelearn'
 include 'jdk-learn'
 include 'concurrent-learn'
+include 'jni-learn'
 
